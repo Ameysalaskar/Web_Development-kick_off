@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Borel&family=Comfortaa:wght@600&family=Josefin+Sans&family=Lilita+One&family=Pacifico&family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Comfortaa:wght@600&family=Josefin+Sans&family=Lilita+One&family=Vollkorn&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(130, 228, 192);
+    max-height: 100vh;
+}
+nav{
+    display: flex;
+    background-color: rgb(24, 184, 173);
+    color: black;
+    height: 5vw;
+    width: 100vw;
+}
+nav>ul>.text{
+    /* border: 2px solid white; */
+    position: relative;
+    top: 22px;
+    left: 157px;
+    margin-left: 6px;
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Borel', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+}
+.image>img{
+    position: relative;
+    left: 307px;
+    bottom: 13px;
+    width: 40px;
+    /* border: 2px solid white; */  
+}
+.container{
+    /* background-color: gray; */
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Vollkorn', serif;
+}
+.container>ol>li{
+    list-style: none;
+}
+.backimage{
+    position: relative;
+    bottom: 3300px;
+}
+.backimage>img{
+    position: relative;
+    opacity: 0.6;
+    z-index: -150;
+}
+.backimage2{
+    position: relative;
+    bottom: 3200px;
+}
+.backimage2>img{
+    position: relative;
+    left: 1000px;
+    z-index: -150;
+    opacity: 0.7;
+}
+.backimage3{
+    position: relative;
+    bottom: 2900px;
+}
+.backimage3>img{
+    position: relative;
+    z-index: -150;
+    opacity: 0.7;
+    left: 70px;
+}

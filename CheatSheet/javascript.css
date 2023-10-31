@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Josefin+Sans&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Comfortaa:wght@600&family=Josefin+Sans&family=Lilita+One&family=Vollkorn&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+    max-height: 100vh;
+    /* background-image: url(photo4.png); 
+    background-image: radial-gradient();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    overflow: hidden; 
+    opacity: 0.9; */
+      
+}
+nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+.text{
+    padding: 15px 120px;
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    word-spacing: 3px;
+    font-size: 18px;
+}
+
+.image>img{
+    padding: 7px 10px;
+    width: 45px;
+    position: absolute;
+    left: 295px;
+}
+.container{
+    /* background-color: gray; */
+    width: 70vw;
+    margin: auto;
+    padding: 32px 0;
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Vollkorn', serif;
+   
+}
+.container>ol>li{
+    list-style: none;
+}
+.container>ol>li>img{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+.toolbar-item>button{
+    cursor: pointer !important;
+    border: 2px solid white !important;
+    padding: 4px 5px !important;
+}
+
+.backimage>img{
+    position: relative;
+    left: 150px;
+    /* bottom: 1500px; */
+    z-index: -150;
+    opacity: 0.4;
+}
+.backimage{
+    position: relative;
+    bottom: 1500px;
+}

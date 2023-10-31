@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Borel&family=Comfortaa:wght@600&family=Josefin+Sans&family=Lilita+One&family=Pacifico&family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Borel&family=Comfortaa:wght@600&family=Josefin+Sans&family=Lilita+One&family=Pacifico&family=Patua+One&family=Vollkorn&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background-image: url(main_backimage2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+nav{
+    display: flex;
+    background-color: black;
+    height: 69px;
+    width: 100vw;
+    color: white;
+    /* opacity: 0.5; */
+}
+nav>li{
+    list-style: none;
+    position: relative;
+    left: 1004px;
+    /* cursor: pointer; */
+    color: gray;
+    /* border: 2px solid white; */
+    margin: 24px 7px;
+}
+nav>li>a{
+    text-decoration: none;
+    color: gray;
+}
+nav>li>a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.logo>img{
+    width: 50px;
+    border-radius: 15px;
+    padding: 9px 5px;
+}
+.text{
+    padding: 25px 6px;
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Borel', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Vollkorn', serif;
+    font-weight: bolder;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+}
+.container{
+    display: inline-block;
+    background-color: gray;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(backimage4.jpg);  
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.container>h3{
+    color: whitesmoke;
+}
+.container>.heading{
+    display: inline-block;
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Borel', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Patua One', cursive;
+    font-family: 'Vollkorn', serif;
+    font-size: 60px;
+    color: white;
+}
+.container>#quote{
+    display: inline-block;
+    color: black;
+    font-size: 21px;
+    padding: 150px 90px;
+    line-height: 33px;
+}
+
+
+
