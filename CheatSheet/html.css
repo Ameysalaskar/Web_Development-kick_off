@@ -50,3 +50,7 @@ nav>ul>.text{
 .container>ol>li{
     list-style: none;
 }
+body{
+    background-image: url(/Web_Development-kick_off/CheatSheet/htmlbackimage.jpeg);
+}
+
